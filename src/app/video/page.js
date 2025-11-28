@@ -17,7 +17,7 @@ export default function Home() {
         <Video />
 
         <a
-          href="https://global.ironpayapp.com.br/ehofsfj9p8"
+          href="https://go.ironpayapp.com.br/eyfgihfotb"
           className="cursor-pointer hover:bg-green-400 hover:transform-gpu transition-transform hover:scale-105 hover:ease-in-out mt-4 flex justify-center items-center text-center text-md xs:text-xl sm:text-2xl uppercase bg-green-500 py-3.5 px-[42px] font-medium rounded-xl box-shadow-lg text-white"
         >
           Comprar agora! <ShoppingBag className="inline-block ml-2" />
