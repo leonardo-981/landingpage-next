@@ -6,7 +6,7 @@ export default function Home() {
       <div className="flex flex-col items-center gap-5">
         <div className="relative max-w-[450px] rounded-xl overflow-hidden h-auto flex items-center justify-center bg-gray-100">
           <img
-            src="https://media.atomicatpages.net/u/Rc5XIMzqaTUW5KChYnmsda02uNl1/Pictures/FtDAWc2424064.png?quality=76#228636 1600w,https://media.atomicatpages.net/u/Rc5XIMzqaTUW5KChYnmsda02uNl1/Pictures/FtDAWc2424064.png?width=300&height=160&quality=90#599 300w,https://media.atomicatpages.net/u/Rc5XIMzqaTUW5KChYnmsda02uNl1/Pictures/FtDAWc2424064.png?width=768&height=409&quality=80#577081 768w,https://media.atomicatpages.net/u/Rc5XIMzqaTUW5KChYnmsda02uNl1/Pictures/FtDAWc2424064.png?width=1024&height=545&quality=74#826458 1024w,https://media.atomicatpages.net/u/Rc5XIMzqaTUW5KChYnmsda02uNl1/Pictures/FtDAWc2424064.png?width=1536&height=818&quality=88#771280 1536w"
+            src="/assets/img/ft.webp"
             alt="Logo"
             className="w-full h-auto"
           />
