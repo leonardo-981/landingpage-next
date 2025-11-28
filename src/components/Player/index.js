@@ -48,7 +48,7 @@ export default function Video() {
         <img
           src="/assets/img/video-banner.gif"
           alt="video banner"
-          className="rounded-xl overflow-hidden w-full h-full max-w-sm absolute top-0 left-0 right-0 bottom-0 pointer-events-none"
+          className="rounded-xl overflow-hidden w-full h-[685px] max-w-sm absolute top-0 left-0 right-0 bottom-0 pointer-events-none"
         />
       )}
 
