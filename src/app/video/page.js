@@ -1,3 +1,4 @@
+import FullWidthCardCTA from "@/components/FloatingCTA";
 import Video from "@/components/Player";
 import { ShoppingBag } from "lucide-react";
 
@@ -23,6 +24,8 @@ export default function Home() {
           Comprar agora! <ShoppingBag className="inline-block ml-2" />
         </a>
       </div>
+
+      <FullWidthCardCTA />
     </div>
   );
 }

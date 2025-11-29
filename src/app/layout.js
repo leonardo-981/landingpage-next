@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-RMC997STZM"
