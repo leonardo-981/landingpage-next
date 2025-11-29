@@ -1,6 +1,7 @@
 "use client";
 
 import { MediaPlayer, MediaOutlet } from "@vidstack/react";
+import { VolumeOff } from "lucide-react";
 import { Pause, Play } from "lucide-react";
 import { useRef, useEffect, useState } from "react";
 
@@ -84,9 +85,10 @@ export default function PlayerAutoplay() {
             e.stopPropagation();
             enableAudio();
           }}
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 px-6 py-3 bg-red-600 text-white text-lg font-semibold rounded-lg shadow-lg"
+          className="flex flex-col justify-center items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 px-6 py-3 bg-red-600 text-white text-lg font-semibold rounded-lg shadow-lg"
         >
-          Clique para ouvir
+          <VolumeOff width={25} height={25} className="volume-pulse" /> Clique
+          para ouvir
         </button>
       )}
 
