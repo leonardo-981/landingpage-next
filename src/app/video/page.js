@@ -10,7 +10,7 @@ export default function Home() {
           <h1 className="font-bold text-3xl sm:text-4xl text-red-500">
             Promoção Por Tempo Limitado!
           </h1>
-          <h2 className="font-bold text-3xl sm:text-4xl">
+          <h2 className="font-bold text-3xl sm:text-4xl text-white">
             Descubra o Segredo dos Movimentos Mágicos
           </h2>
         </div>
