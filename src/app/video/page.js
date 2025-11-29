@@ -1,5 +1,5 @@
 import FullWidthCardCTA from "@/components/FloatingCTA";
-import Video from "@/components/Player";
+import PlayerAutoplay from "@/components/PlayerAutoplay";
 import { ShoppingBag } from "lucide-react";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
           </h2>
         </div>
 
-        <Video />
+        <PlayerAutoplay />
 
         <a
           href="https://go.ironpayapp.com.br/eyfgihfotb"
