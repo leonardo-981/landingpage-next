@@ -75,7 +75,7 @@ export default function PlayerAutoplay() {
         <img
           src="/assets/img/video-banner.gif"
           alt="video banner"
-          className="absolute inset-0 w-full h-full object-cover pointer-events-none rounded-xl"
+          className="absolute inset-0 w-full h-full object-cover rounded-xl"
         />
       )}
 
