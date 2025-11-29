@@ -38,7 +38,7 @@ export default function Video() {
       <MediaPlayer
         ref={playerRef}
         title="Video"
-        src="https://pub-c50fe0ad92c044bcb65ad846cbd9da84.r2.dev/move.mp4"
+        src="/video/move.mp4"
         className="w-full max-w-sm rounded-xl shadow-lg"
       >
         <MediaOutlet />
