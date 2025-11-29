@@ -13,7 +13,7 @@ export default function Home() {
             Você tem mais de <span className="text-red-500">18 anos?</span>
           </h1>
 
-          <p className="text-base text-center max-w-xl">
+          <p className="text-base text-center max-w-xl text-white">
             Clique no botão abaixo se você é maior e quer assistir a
             apresentação completa.
           </p>

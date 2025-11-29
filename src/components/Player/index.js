@@ -39,7 +39,9 @@ export default function Video() {
         ref={playerRef}
         title="Video"
         src="/video/move.mp4"
-        className="w-full max-w-sm rounded-xl shadow-lg"
+        className={`w-full max-w-sm rounded-xl shadow-lg ${
+          !isPlaying ? "pointer-events-none" : "pointer-events-auto"
+        }`}
       >
         <MediaOutlet />
       </MediaPlayer>
