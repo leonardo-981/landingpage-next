@@ -1,3 +1,5 @@
+"use client";
+
 import FullWidthCardCTA from "@/components/FloatingCTA";
 import PlayerAutoplay from "@/components/PlayerAutoplay";
 import { ShoppingBag } from "lucide-react";
@@ -20,6 +22,16 @@ export default function Home() {
         <a
           href="https://go.ironpayapp.com.br/eyfgihfotb"
           className="cursor-pointer hover:bg-green-400 hover:transform-gpu transition-transform hover:scale-105 hover:ease-in-out mt-4 flex justify-center items-center text-center text-md xs:text-xl sm:text-2xl uppercase bg-green-500 py-3.5 px-[42px] font-medium rounded-xl box-shadow-lg text-white"
+          onClick={() => {
+            if (window.fbq) {
+              window.fbq("track", "InitiateCheckout", {
+                value: 49.9,
+                currency: "BRL",
+              });
+            }
+
+            window.location.href = "https://go.ironpayapp.com.br/eyfgihfotb";
+          }}
         >
           Comprar agora! <ShoppingBag className="inline-block ml-2" />
         </a>
