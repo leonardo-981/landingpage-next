@@ -17,7 +17,7 @@ export const metadata = {
   metadataBase: new URL("https://movimentosmagicos.com"),
 
   title: {
-    default: "Movimentos Mágicos – Guia Especial Exclusivo",
+    default: "Movimentos Mágicos - Guia Especial Exclusivo",
     template: "%s | Movimentos Mágicos",
   },
 
@@ -48,10 +48,10 @@ export const metadata = {
     siteName: "Movimentos Mágicos",
     images: [
       {
-        url: "https://media.atomicatpages.net/u/Rc5XIMzqaTUW5KChYnmsda02uNl1/Pictures/FtDAWc2424064.png",
+        url: "/assets/img/ft.webp",
         width: 1200,
         height: 630,
-        alt: "Movimentos Mágicos – Apresentação Exclusiva",
+        alt: "Movimentos Mágicos - Apresentação Exclusiva",
       },
     ],
     locale: "pt_BR",
@@ -69,8 +69,8 @@ export const metadata = {
   authors: [{ name: "Movimentos Mágicos Team" }],
 
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "/assets/favicon.svg",
+    apple: "/assets/favicon.svg",
   },
 };
 
@@ -97,7 +97,7 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-RMC997STZM');
           `}
         </Script>
-        
+
         {children}
 
         <Footer />
