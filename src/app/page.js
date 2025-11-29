@@ -5,15 +5,11 @@ export default function Home() {
     <div className="bg-[linear-gradient(180deg,#240302_0%,#9f0e0f_100%)] w-full min-h-screen flex items-center justify-center p-4">
       <div className="flex flex-col items-center gap-5">
         <div className="relative max-w-[450px] rounded-xl overflow-hidden h-auto flex items-center justify-center bg-gray-100">
-          <img
-            src="/assets/img/ft.webp"
-            alt="Logo"
-            className="w-full h-auto"
-          />
+          <img src="/assets/img/ft.webp" alt="Logo" className="w-full h-auto" />
         </div>
 
         <div className="mt-8 space-y-4">
-          <h1 className="text-center text-5xl font-bold">
+          <h1 className="text-center text-5xl font-bold text-white">
             Você tem mais de <span className="text-red-500">18 anos?</span>
           </h1>
 
